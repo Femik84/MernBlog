@@ -1,0 +1,9 @@
+note: we are able to use 'import' instead of using 'require' by changing the type in package.json to 'module' instead of the default "common js"
+
+note: in your backend, if you want to use a default file to use 'npm run dev' and 'npm start' you will write in your package.json like this:
+ 
+ package.json:
+    "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  }
