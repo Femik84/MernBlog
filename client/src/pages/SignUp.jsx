@@ -15,6 +15,7 @@ export default function SignUp() {
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.id]: e.target.value.trim() });
   };
+  
   // the trim is used to remove unnnecessary space from the data input
 
   
